@@ -16,7 +16,7 @@ function getToken(callback) {
 
     const options = { 
         pfx: fs.readFileSync(pfxPath), 
-        port: 2878, 
+        port: 17431, 
         host: ipAddress, 
         rejectUnauthorized: false,
         ciphers: 'HIGH:!DH:!aNULL'
